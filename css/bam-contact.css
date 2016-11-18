@@ -12,9 +12,13 @@ body {
 
 /*=====  CONTACT WRAPPER 1 STARTS HERE ===== */
 
-.site-navigation-1{
-	padding-left:20%;
-	padding-right:20%;
+.site-navigation-1 {
+    padding-left: 20%;
+    padding-right: 20%;
+    position: fixed;
+    width: 100%;
+    background: red;
+    z-index: 1000;
 }
 
 .site-navigation-1-1 {

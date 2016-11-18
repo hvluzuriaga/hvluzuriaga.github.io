@@ -68,7 +68,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: green;
-    padding: 15% 0% 10% 0%;
+    padding: 15% 0% 5% 0%;
 }
 
 .contact-wrapper-2-title-1{
@@ -94,17 +94,20 @@ body {
     background-color: pink;
 }
 
+
 .contact-wrapper-3-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 125%;
-    padding: 2% 30% 2% 30%;
+    background: blueviolet;
+    padding: 0% 30% 0% 30%;
 }
 
 .contact-item {
     text-align: center;
-    background: yellow;
+    background: #00ff32;
+    font-size: 0.9rem;
     border: 2px red solid;
     padding: 0% 0% 0% 0%;
 }
@@ -114,25 +117,32 @@ body {
 }
 
 .contact-item-1, .contact-item-2, .contact-item-3, .contact-item-4 {
-	margin: 5% 30% 5% 30%;
+	margin: 0.5% 30% 0.5% 30%;
 	padding: 0% 5% 0% 5%;
 	border: 2px red solid;
 	background: orange;
 }
 
-.contact-item-info {
+.contact-item{
 	text-align: center;
-    background: pink;
-    margin: 1% 1% 1% 1%;
+    background: gold;
     padding: 1% 0% 1% 0%;
-    border: 2px pink solid;
+    border: 2px black solid;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.telephone, .skype, .address, .email{
+    font-size: 0.85rem;
+    font-style: normal;
+    background: lightblue;
 }
 
 .contact-item a{
 	text-decoration: none;
-	margin: auto%;
+	margin: auto;
 	padding: auto;
-    border-left: : 2px solid white;
+  border-left: : 2px solid white;
 	transition: all 0.3s;
 	background: orange;
 	color: white;

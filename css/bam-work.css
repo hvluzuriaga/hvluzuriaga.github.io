@@ -6,21 +6,14 @@ html{box-sizing:border-box;}*,*:before,*:after{box-sizing:inherit;}
 
 body{
 	width: max-width;
-	background-color: grey;
+	background-color: RGBA(212, 222, 230, 1.00);
 }
 
 /* ********************************************************* */
 
 /*=====  WORK WRAPPER 1 STARTS HERE ===== */
 
-/*
-.site-navigation-1{
-	padding-left:20%;
-	padding-right:20%;
-}
-*/
-
-.site-navigation-1{
+.site-navigation-1-1{
     padding-left: 20%;
     padding-right: 20%;
     position: fixed;
@@ -47,7 +40,6 @@ body{
 	padding: 0.5rem 1rem;
     border-left: : 2px solid white;
 	transition: all 0.3s;
-
 }
 
 .site-navigation-1-1-1 a:hover{
@@ -67,11 +59,12 @@ body{
 
 /*===== WORK WRAPPER 2 STARTS HERE ===== */
 
-.work-wrapper-2-title{
-	padding:0% 20% 0% 20%;
-	align-items: center;
-	text-align: center;
-	background: purple;
+.work-wrapper-2-title {
+    margin: auto;
+    padding: 4% 20% 0% 20%;
+    align-items: center;
+    text-align: center;
+    background: purple;
 }
 
 /*=====  WORK WRAPPER 2 ENDS HERE ===== */
@@ -99,7 +92,7 @@ body{
 }
 
 .work-wrapper-3-row-2{
-	padding:2% 0% 2% 0%;
+	/*padding:1% 0% 1% 0%;*/
 	display:flex;
 	flex-direction: row;
 	flex-grow: 1;
@@ -107,25 +100,37 @@ body{
 	align-items: center;
 }
 
-.shop-button {
-	margin: 0;
+/* ETSY SHOP LINK STARTS HERE */
+.work-wrapper-3-row-2-title {
+    width: 250px;
+    height: 250px;
+    padding: 4% 1% 2% 1%;
 }
 
+.etsy-logo {
+	margin:auto;
+	padding: 5% 0% 5% 0%;
+	font-size: 200%;
+	color: white;
+}
+
+.etsy-link-text {
+	text-decoration: none;
+	margin: auto;
+	padding: 5% 0% 5% 0%;
+	color: white;
+}
+
+/* ETSY SHOP LINK ENDS HERE */
 .work-wrapper-3-row-3 {
     display: flex;
     flex-grow: 1;
     justify-content: space-around;
-   
+   	padding: 0% 0% 5% 0%;
 }
 
 /*=====  WORK WRAPPER 4 STARTS HERE ===== */
 
-/*
-.work-wrapper-4 {
-	margin: auto;
-    background-color: grey;
-}
-*/
 
 .work-wrapper-4 {
     margin: auto;

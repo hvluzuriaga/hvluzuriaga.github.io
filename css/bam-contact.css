@@ -1,0 +1,346 @@
+progress,sub,sup{vertical-align:baseline;}button,hr,input{overflow:visible;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;} figcaption, menu,article,aside,details,figure,footer,header,main,nav,section,summary{display:block;}audio,canvas,progress,video{display:inline-block;}audio:not([controls]){display:none;height:0;} [hidden],template{display:none;}a{background-color:transparent;-webkit-text-decoration-skip:objects;}a:active,a:hover{outline-width:0;}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted;}b,strong{font-weight:bolder;}dfn{font-style:italic;}h1{font-size:2em;margin:.67em 0;}mark{background-color:#ff0;color:#000;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;}sub{bottom:-.25em;}sup{top:-.5em;}img{border-style:none;}svg:not(:root){overflow:hidden;}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em;}figure{margin:1em 40px;}hr{box-sizing:content-box;height:0;}button,input,select,textarea{font:inherit;margin:0;}optgroup{font-weight:700;}button,input{}button,select{text-transform:none;}[type=submit], [type=reset],button,html [type=button]{-webkit-appearance:button;}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0;}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal;}textarea{overflow:auto;}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0;}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto;}[type=search]{-webkit-appearance:textfield;outline-offset:-2px;}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none;}::-webkit-input-placeholder{color:inherit;opacity:.54;}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}
+
+.clearfix:after{visibility:hidden;display:block;content:" ";clear:both;height:0;}
+
+html{box-sizing:border-box;}*,*:before,*:after{box-sizing:inherit;}
+
+body {
+  max-width: 100%;
+  background: lightblue;
+}
+
+
+/*=====  CONTACT WRAPPER 1 STARTS HERE ===== */
+
+.site-navigation-1{
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.site-navigation-1-1 {
+  	display: flex;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+
+.site-navigation-1-1-1 {
+    display: flex;
+    align-items: center;
+    padding: 1.5% 3% 1.5% 3%;
+}
+
+.site-navigation-1-1-1 a{
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+    border-left: : 2px solid white;
+	transition: all 0.3s;
+
+}
+
+.site-navigation-1-1-1 a:hover{
+	color: red;
+	background-color: green;
+	transition: all 0.3s;
+	transform: scale(1.5);
+}
+.site-navigation-1-1-1 a:visited{
+	color:rgba(255,255,255,0.85);
+}
+
+/*=====  CONTACT WRAPPER 1 ENDS HERE ===== */
+
+/* ********************************************************* */
+
+/*=====  CONTACT WRAPPER 2 STARTS HERE ===== */
+
+.contact-wrapper-2{
+	padding:0% 20% 0% 20%;
+	align-items: center;
+	text-align: center;
+}
+
+.contact-wrapper-2-title {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    padding: 10% 0% 10% 0%;
+}
+
+.contact-wrapper-2-title-1{
+	background-color: blue;
+	border-bottom: 2px solid white;
+}
+
+.contact-wrapper-2-title-2{
+	background-color: red;
+	border-bottom: 2px solid gold;
+}
+
+/*=====  CONTACT WRAPPER 2 ENDS HERE ===== */
+
+/* ********************************************************* */
+
+/*=====  CONTACT WRAPPER 3 STARTS HERE ===== */
+
+.contact-wrapper-3 {
+    padding: 0% 10% 0% 10%;
+    text-align: center;
+    max-width: 100%;
+    background-color: pink;
+}
+
+.contact-wrapper-3-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 125%;
+    padding: 2% 30% 2% 30%;
+}
+
+.contact-item {
+    text-align: center;
+    background: yellow;
+    border: 2px red solid;
+    padding: 0% 0% 0% 0%;
+}
+
+.contact-item i{
+	font-size: 200%;
+}
+
+.contact-item-1, .contact-item-2, .contact-item-3, .contact-item-4 {
+	margin: 5% 30% 5% 30%;
+	padding: 0% 5% 0% 5%;
+	border: 2px red solid;
+	background: orange;
+}
+
+.contact-item-info {
+	text-align: center;
+    background: pink;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 0% 1% 0%;
+    border: 2px pink solid;
+}
+
+.contact-item a{
+	text-decoration: none;
+	margin: auto%;
+	padding: auto;
+    border-left: : 2px solid white;
+	transition: all 0.3s;
+	background: orange;
+	color: white;
+}
+
+.contact-item a:hover{
+	color: red;
+	background-color: green;
+	transform: scale(1.5);
+	transition: all 0.3s;
+}
+.contact-item a:visited{
+	color:rgba(255,255,255,0.85);
+}
+
+/*=====  CONTACT WRAPPER 3 ENDS HERE ===== */
+
+/* ********************************************************* */
+
+
+.contact-wrapper-4 {
+    padding: 2% 20% 2% 20%;
+    text-align: center;
+    max-width: 100%;
+    background-color: purple;
+}
+
+.contact-wrapper-4-1 {
+    padding: 0% 10% 0% 10%;
+    text-align: center;
+    max-width: 100%;
+    background-color: blue;
+}
+
+/* -- CSS FOR INPUT FORM */
+
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+/* -- CSS FOR INPUT FORM */
+
+/*=====  CONTACT WRAPPER 5 STARTS HERE ===== */
+/* MAP HERE */
+
+.contact-wrapper-5 {
+	margin: auto;
+    background-color: lightgreen;
+    padding: 10% 20% 10% 20%;
+    text-align: center;
+}
+
+
+/*=====  CONTACT WRAPPER 5 ENDS HERE ===== */
+
+/* ********************************************************* */
+
+/*=====  CONTACT WRAPPER 6 STARTS HERE ===== */
+
+.contact-wrapper-6 {
+	margin: auto;
+    background-color: grey;
+}
+
+.social-navigation-1-1 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0.5% 20% 0.5% 20%;
+}
+.social-item {
+    display: flex;
+    font-size: 125%;
+    padding: 1.5% 6% 1.5% 6%;
+}
+
+.social-item a{
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+    border-left: : 2px solid white;
+	transition: all 0.3s;
+
+}
+
+.social-item a:hover{
+	color: red;
+	background-color: green;
+	transform:scale(2);
+	transition: all 0.3s;
+}
+.social-item a:visited{
+	color:rgba(255,255,255,0.85);
+}
+
+
+/*=====  WORK WRAPPER 4 ENDS HERE ===== */

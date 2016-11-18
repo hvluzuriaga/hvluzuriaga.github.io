@@ -20,9 +20,19 @@ body{
 	color:rgba(255,255,255,0.85);	
 }
 
+/*
 .site-navigation-1{
 	padding-left:20%;
 	padding-right:20%;
+}
+*/
+.site-navigation-1{
+    padding-left: 20%;
+    padding-right: 20%;
+    position: fixed;
+    width: 100%;
+    background: red;
+    z-index: 100;
 }
 
 	.site-navigation-1-1 {
@@ -242,10 +252,20 @@ header {
 
 /*=====  INDEX WRAPPER 5 STARTS HERE ===== */
 
-
+/*
 .index-wrapper-5 {
 	margin: auto;
     background-color: grey;
+}
+*/
+
+.index-wrapper-5 {
+    margin: auto;
+    background-color: grey;
+    width: 100%;
+    position: fixed;
+    top: 90%;
+    z-index: 100;
 }
 
 .social-navigation-1-1 {

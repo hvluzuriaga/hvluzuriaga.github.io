@@ -36,7 +36,7 @@ body{
     padding-right: 20%;
     position: fixed;
     width: 100%;
-    background:  RGBA(254, 175, 84, 1.00);
+    background:  RGBA(254, 175, 84, 1.00); /*orange color */
     z-index: 100;
 }
 
@@ -63,7 +63,7 @@ body{
 
 .site-navigation-1-1-1 a:hover{
 	color: grey;
-	background-color: green;
+	background-color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
 	transition: all 0.3s;
 	transform: scale(1.5);
 }
@@ -286,7 +286,7 @@ header img {
 
 .social-navigation-1-1 {
     margin: auto;
-    background-color: RGBA(0, 175, 234, 1.00);
+    background-color: RGBA(0, 175, 234, 1.00); /*cerulean color*/
     width: 100%;
     position: fixed;
     top: 90%;
@@ -315,8 +315,8 @@ header img {
 
 .social-item a:hover{
 	color: red;
-	background-color: green;
-	transform:scale(2);
+	background-color: RGBA(254, 175, 84, 1.00); /*orange color */
+	transform:scale(1.75);
 	transition: all 0.3s;
 }
 .social-item a:visited{

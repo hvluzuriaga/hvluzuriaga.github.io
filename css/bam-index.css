@@ -6,22 +6,25 @@ html{box-sizing:border-box;}*,*:before,*:after{box-sizing:inherit;}
 
 body{
 	max-width: 100%;
-	background-color: pink;
+	background-image: url('/img/p-3170-1.jpg');
+    font-family: 'Titillium Web', sans-serif;
+
 }
 
 /* ********************************************************* */
 
 /*=====  INDEX WRAPPER 1 STARTS HERE ===== */
 
-/*
+
 .index-wrapper-1{
 	max-width: 100%;
-	background-image: url("http://lorempixel.com/1500/800/");	
-	background-repeat: no-repeat;
-	color:rgba(255,255,255,0.85);	
+	/*background-image: url('img/p-3170.jpg');
+    background-color: gold;	
+	/*background-repeat: repeat;*/
+	/*color:rgba(255,255,255,0.85);	*/
 }
 
-
+/*
 .site-navigation-1{
 	padding-left:20%;
 	padding-right:20%;
@@ -69,9 +72,13 @@ body{
 }
 
 header {
-    padding: 10% 20% 5% 20%;
+    padding: 7% 20% 0% 20%;
     display: flex;
     justify-content: center;
+}
+
+header img {
+	height: 300px;
 }
 
 .index-wrapper-1-1 {
@@ -87,12 +94,17 @@ header {
 
 .index-wrapper-1-2 {
 	text-align: center;
-	padding-left:20%;
-	padding-right:20%;
+	padding: 0% 20% 0% 20%;
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+
+.index-wrapper-1-2 p {
+    text-align: center;
+    padding: 0.35% 0% 0.35% 0%;
+    margin: auto;
 }
 
 .index-wrapper-1-3 {

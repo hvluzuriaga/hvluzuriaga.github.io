@@ -161,15 +161,21 @@ header img {
 
 /*=====  INDEX WRAPPER 1 ENDS HERE ===== */
 
+
 /* ********************************************************* */
 
 /*===== INDEX WRAPPER 2 STARTS HERE ===== */
+.index-wrapper-2{
+    margin: auto;
+    padding: 0% 0% 10% 0%;
+}
+
 
 .index-wrapper-2-title {
     display: flex;
     justify-content: center;
-    padding: 2% 20% 2% 20%;
-    margin: 0.5%;
+    padding: 0% 20% 0% 20%;
+    margin: 0.5% 0.5% 0.5% 0.5%;
 }
 
 .index-wrapper-2-title-1{
@@ -197,34 +203,52 @@ header img {
 }
 
 .index-wrapper-2-1 {
-    padding: 2%;
+    margin: 0.5% 20% 0.5% 20%;
+    padding: 3% 0% 2% 0%;
     display: flex;
-    background-color: gold;
+    justify-content: space-around;
 }
 
 .index-wrapper-2-1-1 {
     margin: 0.5%;
     display: flex;
     flex-direction: column;
-    background-color: red;
     text-align: center;
 }
 
-.index-wrapper-2-1-1-1 {
+.index-wrapper-2-1-1-1{
     margin: 0.5%;
     padding: 5% 0% 5% 0%;
-    background: blue;
-    font-size: 500%;
 }
 
+.index-wrapper-2-1-1-1 i{
+    font-size: 7em;
+    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */    
 
+}
+
+.service-title{
+    font-size: 2.0em;
+    color: RGBA(254, 175, 84, 1.00); /*orange color */
+    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+}
+
+.service-description {
+    font-size: 0.4em; 
+    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */    
+}
 
 
 /*=====  INDEX WRAPPER 2 ENDS HERE ===== */
 
+
 /* ********************************************************* */
 
 /*===== INDEX WRAPPER 3 STARTS HERE ===== */
+
+/*
 .index-wrapper-3-1 {
 	display:flex;
 	flex-direction: column;
@@ -247,6 +271,8 @@ header img {
     background: grey;
     color: red;
 }
+*/
+
 /*=====  INDEX WRAPPER 3 ENDS HERE ===== */
 
 /* ********************************************************* */
@@ -353,7 +379,7 @@ header img {
     background-color: RGBA(0, 175, 234, 1.00); /*cerulean color*/
     width: 100%;
     position: fixed;
-    top:87.5%;
+    top:86.5%;
     z-index: 100;
 }
 
@@ -401,7 +427,12 @@ header img {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-color: red;
+	background-color: white;
 	text-align: center;
+    width: 100%;
+    position: fixed;
+    top:98%;
+    z-index: 100;
+    font-size: 0.6em;
 }
 /*=====  INDEX WRAPPER 5 ENDS HERE ===== */

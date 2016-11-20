@@ -22,7 +22,7 @@ body{
     width: 100%;
     background:  RGBA(254, 175, 84, 1.00); /*orange color */
     z-index: 100;
-
+	top:0%;
 }
 
 .site-navigation-1-1 {
@@ -65,12 +65,27 @@ body{
 
 /*===== WORK WRAPPER 2 STARTS HERE ===== */
 
-.work-wrapper-2-title {
-    margin: auto;
-    padding: 4% 20% 0% 20%;
-    align-items: center;
+
+.work-wrapper-2-title{
     text-align: center;
-    background: purple;
+}
+
+.work-wrapper-2-title h1{
+	font-size: 2.5em;
+	padding-top: 5%;
+	margin-bottom: 1%;
+    color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
+    text-shadow: 3px 3px RGBA(254, 175, 84, 1.00); /*orange color */
+}
+
+.work-wrapper-2-title p{
+    color: RGBA(254, 175, 84, 1.00); /*orange color */
+    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+	font-size: 1.7em;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	margin-top: 0.25%;
+	margin-bottom: 0.25%;
 }
 
 /*=====  WORK WRAPPER 2 ENDS HERE ===== */
@@ -93,42 +108,71 @@ body{
 .work-wrapper-3-row-1 {
     display: flex;
     flex-grow: 1;
-    justify-content: space-around;
-  
+    justify-content: space-around;  
 }
 
-.work-wrapper-3-row-2{
-	/*padding:1% 0% 1% 0%;*/
-	display:flex;
-	flex-direction: row;
-	flex-grow: 1;
-	justify-content: space-around;
-	align-items: center;
+.work-wrapper-3-row-2 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;  
 }
 
 /* ETSY SHOP LINK STARTS HERE */
-.work-wrapper-3-row-2-title {
+
+.work-wrapper-3-row-2-title{
     width: 250px;
     height: 250px;
-    padding: 4% 1% 2% 1%;
-    background-color: pink;
+    padding: 1% 1% 1% 1%;
+    margin-bottom: 0.4%;
+    text-align: center;
+    background-color: RGBA(254, 175, 84, 1.00); /*orange color */
 }
-
-.etsy-logo {
+.shop-item-1{
 	margin:auto;
-	padding: 5% 0% 5% 0%;
-	font-size: 200%;
-	color: white;
-}
-
-.etsy-link-text {
+	padding:0% 0% 0% 0%;
+	font-size: 3.5em;
+	color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
+} 
+.shop-item-1 a{
 	text-decoration: none;
-	margin: auto;
-	padding: 5% 0% 5% 0%;
+    border-left: : 2px solid white;
+	transition: all 0.3s;
+	text-align: center;
+}
+.shop-item-1 a:hover{
 	color: white;
+    transform:scale(1.30);
+	transition: all 0.3s;
+}
+.shop-item-1 a:visited{
+	color:white;
 }
 
+.shop-item-2{
+	margin: auto;
+	padding: 5% 0% 0% 0%;
+	font-size: 1.5em;
+	color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
+}
+.shop-item-2 a{
+	text-decoration: none;
+    border-left: : 2px solid white;
+	transition: all 0.3s;
+	text-align: center;
+}
+
+.shop-item-2 a:hover{
+	color: white;
+	background-color:  RGBA(0, 175, 234, 0.85);  /*cerulean color*/
+    text-shadow: 1px 1px RGBA(254, 175, 84, 1.00); /*orange color */
+    transform:scale(1.50);
+	transition: all 0.3s;
+}
+.shop-item-2 a:visited{
+	color:rgba(255,255,255,0.85);
+}
 /* ETSY SHOP LINK ENDS HERE */
+
 .work-wrapper-3-row-3 {
     display: flex;
     flex-grow: 1;
@@ -146,7 +190,7 @@ body{
     background-color: RGBA(0, 175, 234, 1.00); /*cerulean color*/
     width: 100%;
     position: fixed;
-    top:87.5%;
+    top:86.5%;
     z-index: 100;
 }
 
@@ -189,13 +233,18 @@ body{
 
 /*=====  WORK WRAPPER 5 STARTS HERE ===== */
 
-.work-wrapper-5-1 {
+.work-wrapper-5 {
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-color: red;
+	background-color: white;
 	text-align: center;
+    width: 100%;
+    position: fixed;
+    top:98%;
+    z-index: 100;
+    font-size: 0.6em;
 }
 /*=====  WORK WRAPPER 5 ENDS HERE ===== */
 

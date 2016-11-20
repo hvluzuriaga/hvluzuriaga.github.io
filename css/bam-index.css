@@ -105,7 +105,7 @@ header img {
     align-items: center;
     margin-left: 2.5%;
     color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); 
+    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
     font-size: 1.8em;
     margin: 1% 0% 1% 0%;
     /*background-color: purple;*/
@@ -168,18 +168,32 @@ header img {
 .index-wrapper-2-title {
     display: flex;
     justify-content: center;
-    background-color: green;
     padding: 2% 20% 2% 20%;
     margin: 0.5%;
 }
 
 .index-wrapper-2-title-1{
-	border-bottom: 2px solid white;
+    padding: 0% 1% 0% 1%;
+    font-size: 2.2em;
+    color: RGBA(254, 175, 84, 1.00); /*orange color */
+    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+	border-bottom: 4px solid RGBA(254, 175, 84, 1.00); /*orange color */
 }
 
-.index-wrapper-2-title-2, .index-wrapper-2-title-3{
-	border-bottom: 2px solid gold;
-	font-weight: bolder;
+.index-wrapper-2-title-2{
+	padding: 0% 1% 0% 1%;
+    font-size: 2.2em;
+    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */
+    border-bottom: 4px solid RGBA(0, 175, 234, 0.85); /*cerulean color*/
+}
+
+.index-wrapper-2-title-3{
+    padding: 0% 1% 0% 1%;
+    font-size: 2.2em;
+    color: RGBA(254, 175, 84, 1.00); /*orange color */
+    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    border-bottom: 4px solid RGBA(254, 175, 84, 1.00); /*orange color */
 }
 
 .index-wrapper-2-1 {

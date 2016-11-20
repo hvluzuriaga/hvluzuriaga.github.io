@@ -17,7 +17,6 @@ body{
 .index-wrapper-1{
 	max-width: 100%;
     padding: 0% 0% 10% 0%;
-	background-repeat: repeat;
 }
 
 /* START OF SITE NAVIGATION MENU */
@@ -167,7 +166,7 @@ header img {
 /*===== INDEX WRAPPER 2 STARTS HERE ===== */
 .index-wrapper-2{
     margin: auto;
-    padding: 0% 0% 10% 0%;
+    padding: 0% 0% 5% 0%;
 }
 
 
@@ -279,71 +278,101 @@ header img {
 
 /*=====  INDEX WRAPPER 4 STARTS HERE ===== */
 
-.index-wrapper-4 {
-	background: purple;
+.index-wrapper-4{
+    max-width: 100%;
+    padding: 0% 0% 10% 0%;
 }
 
 .index-wrapper-4-title {
-    background-color: lightgreen;
+    background-color: none;
     padding: 2% 20% 2% 20%;
 }
 
 .index-wrapper-4-title-1 {
     display: flex;
     justify-content: center;
-    background-color: green;
     padding: 0% 0.5% 0% 0.5%;
 }
 
 .index-wrapper-4-title-1-1{
-	background-color: blue;
-	border-bottom: 2px solid white;
+    padding: 0% 1% 0% 1%;
+    font-size: 2.2em;
+    color: RGBA(254, 175, 84, 1.00); /*orange color */
+    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    border-bottom: 4px solid RGBA(254, 175, 84, 1.00); /*orange color */
 }
 
 .index-wrapper-4-title-1-2{
-	background-color: red;
-	border-bottom: 2px solid gold;
+    padding: 0% 1% 0% 1%;
+    font-size: 2.2em;
+    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */
+    border-bottom: 4px solid RGBA(0, 175, 234, 0.85); /*cerulean color*/
 }
 
 .index-wrapper-4-1 {
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	background-color: lightyellow;
-	text-align: center;
-	padding: 2% 20% 2% 20%;
+    padding: 0% 20% 0% 20%;
+    text-align: center;
 }
 
-.quote-left{
-	text-align: left;
-}
-
-.quote-right{
-	text-align: right;
+.index-wrapper-4-1 p{
+    font-size: 1.2em; 
+    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */    
 }
 
 .index-wrapper-4-2{
-	background-color: orange;
-	text-align: center;
-	padding: 2% 20% 2% 20%;
+    padding: 2% 20% 2% 20%;
 }
 
 .index-wrapper-4-2-1 div:nth-of-type(odd) {
     display: flex;
     align-items: center;
-    background-color: lightyellow;
 }
 
 .index-wrapper-4-2-1 div:nth-of-type(even) {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background-color: grey;
 }
+
+.index-wrapper-4-2-1-1 blockquote{
+    margin-top: 0%;
+    margin-bottom:0%;
+}
+
+.index-wrapper-4-2-1-1 p{
+    font-size: 1.2em; 
+    margin-top: 0%;
+    margin-bottom:0%;
+    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */    
+}
+
+.quote-left{
+	text-align: left;
+    margin-top: 0;
+}
+
+.fa-quote-left{
+    color: RGBA(254, 175, 84, 1.00); /*orange color */
+    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+}
+
+.quote-right{
+	text-align: right;
+    margin-top: 0;
+}
+
+.fa-quote-right{
+    color: RGBA(254, 175, 84, 1.00); /*orange color */
+    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+}
+
 
 .index-wrapper-4-2-1 img{
 	border-radius: 50%;
+    border: 6px solid RGBA(254, 175, 84, 1.00);
 }
 
 
@@ -353,24 +382,6 @@ header img {
 /* ********************************************************* */
 
 /*=====  INDEX WRAPPER 5 STARTS HERE ===== */
-
-/*
-.index-wrapper-5 {
-	margin: auto;
-    background-color: grey;
-}
-
-
-.index-wrapper-5 {
-    margin: auto;
-    background-color: grey;
-    width: 100%;
-    position: fixed;
-    top: 90%;
-    z-index: 100;
-}
-
-*/
 
 /* SOCIAL NAV MENU STARTS HERE */
 

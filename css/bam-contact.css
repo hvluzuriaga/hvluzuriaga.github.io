@@ -111,30 +111,29 @@ body{
 /*=====  CONTACT WRAPPER 2 STARTS HERE ===== */
 
 .contact-wrapper-2{
+    text-align: center;
+    background: white;
+    padding:4% 0% 2% 0%;
+}
+
+.contact-wrapper-2-title{
+    margin: 0%;
+}
+
+.contact-wrapper-2-title{
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
-    padding: 0% 0% 0% 0%;
+    font-size: 2.2em;
+    margin: 0.25% 2% 0.25% 2%;
+    padding: 5% 2% 0% 2%;
+    color: RGBA(0, 175, 234, 0.85); /*cerulean color */
+    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color*/ 
 }
 
-.contact-wrapper-2-title {
-    display: flex;
-    justify-content: center;
-    background-color: green;
-    padding: 5% 0% 2% 0%;
-}
-
-.contact-wrapper-2-title-1{
-	padding: 0% 2% 0% 2%;
-  background-color: blue;
-	border-bottom: 2px solid white;
-}
-
-.contact-wrapper-2-title-2{
-	padding: 0% 2% 0% 2%;
-  background-color: red;
-	border-bottom: 2px solid gold;
-}
+.contact-wrapper-2-title-1, .contact-wrapper-2-title-2{
+    padding-right: 0.5%;
+    border-bottom: 2px solid RGBA(254, 175, 84, 1.00)
+} 
 
 /*=====  CONTACT WRAPPER 2 ENDS HERE ===== */
 
@@ -146,78 +145,62 @@ body{
     padding: 0% 10% 0% 10%;
     text-align: center;
     max-width: 100%;
-    background-color: pink;
+    background-color: white;
 }
 
-
 .contact-wrapper-3-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 125%;
-    background: blueviolet;
     padding: 0% 30% 0% 30%;
+     background-color: white;
+}
+
+.contact-content{
+    font-size: 1.2em;
+    font-style:normal;
+    margin: 0.2% 17% 0.2% 17%;
+    background: RGBA(254, 175, 84, 0.85);
+    color: RGBA(0, 175, 234, 0.85); /*cerulean color */
+    text-shadow: 2px 2px white; /*orange color*/
+    border-radius: 5%;
 }
 
 .contact-item {
-    text-align: center;
-    background: #00ff32;
-    font-size: 0.9rem;
-    border: 2px red solid;
-    padding: 0% 0% 0% 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.0em;
+    margin: 0.2% 17% 0.2% 17%;
+    padding: 0% 6% 0% 6%;
+    background: RGBA(0, 175, 234, 0.85);
+    border-radius: 5%;
 }
 
-.contact-item i{
-	font-size: 200%;
-}
-
-.contact-item-1, .contact-item-2, .contact-item-3, .contact-item-4 {
-	margin: 0.5% 30% 0.5% 30%;
-	padding: 0% 5% 0% 5%;
-	border: 2px red solid;
-	background: orange;
-}
-
-.contact-item{
-	text-align: center;
-    background: gold;
-    padding: 1% 0% 1% 0%;
-    border: 2px black solid;
-    font-size: 1.5rem;
-    font-style: normal;
-}
-
-.telephone, .skype, .address, .email{
-    font-size: 0.85rem;
-    font-style: normal;
-    background: lightblue;
-}
 
 .contact-item a{
-	text-decoration: none;
-	margin: auto;
-	padding: auto;
+  color: white;
+  text-decoration: none;
+  padding: 0% 0.5% 0% 0.5%;
   border-left: : 2px solid white;
-	transition: all 0.3s;
-	background: orange;
-	color: white;
+  transition: all 0.3s;
+
 }
 
 .contact-item a:hover{
-	color: red;
-	background-color: green;
-	transform: scale(1.5);
-	transition: all 0.3s;
+  color: white;
+  text-shadow: 1px 1px RGBA(0, 175, 234, 0.85);  /*cerulean color*/
+  background-color: RGBA(254, 175, 84, 1.00); /*orange color */
+  border-radius: 5%;
+  transform:scale(1.10);
+  transition: all 0.3s;
 }
 .contact-item a:visited{
-	color:rgba(255,255,255,0.85);
+  color:rgba(255,255,255,0.85);
 }
+
 
 /*=====  CONTACT WRAPPER 3 ENDS HERE ===== */
 
 /* ********************************************************* */
 
-
+/*
 .contact-wrapper-4 {
     padding: 2% 20% 2% 20%;
     text-align: center;
@@ -401,7 +384,7 @@ fieldset {
 .social-item a{
   text-decoration: none;
   padding: 0.5rem 1rem;
-    border-left: : 2px solid white;
+  border-left: : 2px solid white;
   transition: all 0.3s;
 
 }
@@ -409,9 +392,9 @@ fieldset {
 .social-item a:hover{
   color: red;
   text-shadow: 1px 1px RGBA(0, 175, 234, 0.85);  /*cerulean color*/
-    background-color: RGBA(254, 175, 84, 1.00); /*orange color */
+  background-color: RGBA(254, 175, 84, 1.00); /*orange color */
   border-radius: 5%;
-    transform:scale(1.10);
+  transform:scale(1.10);
   transition: all 0.3s;
 }
 .social-item a:visited{

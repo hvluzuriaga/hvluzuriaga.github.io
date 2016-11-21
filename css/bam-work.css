@@ -71,6 +71,8 @@ body{
 }
 
 .work-wrapper-2-title h1{
+	display:flex;
+	justify-content: center;
 	font-size: 2.5em;
 	padding-top: 5%;
 	margin-bottom: 1%;
@@ -78,6 +80,15 @@ body{
     text-shadow: 3px 3px RGBA(254, 175, 84, 1.00); /*orange color */
 }
 
+.work-wrapper-2-title-1{
+	padding-right: 0.5%;
+    border-bottom: 2px solid RGBA(254, 175, 84, 1.00)
+}
+
+.work-wrapper-2-title-2{
+	padding-left: 0.5%;
+    border-bottom: 2px solid RGBA(254, 175, 84, 1.00)
+}
 .work-wrapper-2-title p{
     color: RGBA(254, 175, 84, 1.00); /*orange color */
     text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
@@ -125,7 +136,9 @@ body{
     padding: 1% 1% 1% 1%;
     margin-bottom: 0.4%;
     text-align: center;
+	border-radius: 15%;
     background-color: RGBA(254, 175, 84, 1.00); /*orange color */
+
 }
 .shop-item-1{
 	margin:auto;

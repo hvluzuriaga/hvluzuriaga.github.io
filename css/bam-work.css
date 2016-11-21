@@ -129,11 +129,11 @@ body{
 }
 
 /* ETSY SHOP LINK STARTS HERE */
-
+/*---- SHOP ITEM 1 STARTS ----*/
 .work-wrapper-3-row-2-title{
     width: 250px;
     height: 250px;
-    padding: 1% 1% 1% 1%;
+    padding: 3% 1% 1% 1%;
     margin-bottom: 0.4%;
     text-align: center;
 	border-radius: 15%;
@@ -141,32 +141,41 @@ body{
 
 }
 .shop-item-1{
-	margin:auto;
-	padding:0% 0% 0% 0%;
-	font-size: 3.5em;
-	color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
+	display: flex;
+    justify-content: center;
+    font-size: 2.0em;
+    margin: 3% 17% 2% 17%;
+    padding: 2% 6% 2% 6%;
+    border-radius: 5%;/
 } 
+
 .shop-item-1 a{
 	text-decoration: none;
-    border-left: : 2px solid white;
+    color:white;
 	transition: all 0.3s;
 	text-align: center;
 }
 .shop-item-1 a:hover{
 	color: white;
+	background: RGBA(0, 175, 234, 0.85);
     transform:scale(1.30);
 	transition: all 0.3s;
 }
 .shop-item-1 a:visited{
 	color:white;
 }
+/*---- SHOP ITEM 1 ENDS ----*/
+/*---- SHOP ITEM 2 STARTS ----*/
 
 .shop-item-2{
-	margin: auto;
-	padding: 5% 0% 0% 0%;
-	font-size: 1.5em;
-	color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
-}
+	display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin: 3% 17% 2% 17%;
+    padding: 0.5% 6% 0.5% 6%;
+    border-radius: 5%;
+} 
+
 .shop-item-2 a{
 	text-decoration: none;
     border-left: : 2px solid white;
@@ -178,12 +187,13 @@ body{
 	color: white;
 	background-color:  RGBA(0, 175, 234, 0.85);  /*cerulean color*/
     text-shadow: 1px 1px RGBA(254, 175, 84, 1.00); /*orange color */
-    transform:scale(1.50);
+    transform:scale(1.10);
 	transition: all 0.3s;
 }
 .shop-item-2 a:visited{
-	color:rgba(255,255,255,0.85);
+	color:white;
 }
+/*---- SHOP ITEM 2 ENDS ----*/
 /* ETSY SHOP LINK ENDS HERE */
 
 .work-wrapper-3-row-3 {

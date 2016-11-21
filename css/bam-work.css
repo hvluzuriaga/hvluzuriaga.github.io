@@ -114,6 +114,7 @@ body{
 .work-wrapper-3 img{
 	height: 250px;
 	width: 250px;
+	border-radius: 15%;
 }
 
 .work-wrapper-3-row-1 {

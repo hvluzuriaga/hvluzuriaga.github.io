@@ -76,7 +76,6 @@ header img {
 	width: 50%;
     height: 400px;
     margin-right: 2.5%;
-    font-size: 2rem;
 }
 
 .index-wrapper-1-1{
@@ -98,6 +97,7 @@ header img {
 }
 
 .index-wrapper-1-1 h2{
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,18 +110,6 @@ header img {
     /*background-color: purple;*/
 }
 
-/*
-.index-wrapper-1-1-1-1 {
-    margin-top: 20%;
-    margin-bottom: 0%
-}
-
-.index-wrapper-1-1-1-2 {
-    margin-top: 0%;
-}
-*/
-
-
 .index-wrapper-1-1-2 div{
     text-decoration: none;
     text-align: center;
@@ -133,33 +121,7 @@ header img {
     font-size: 1.2em;
 }
 
-.index-wrapper-1-scroll{
-	text-align: center;
-    margin: 0% 48% 0% 48%;
-    border-radius: 25%;
-    font-size: 200%;
-    border: 2px white solid;
-    background-color:RGBA(0, 175, 234, 1.0); /*cerulean color*/
-}
-
-.index-wrapper-1-scroll i{
-    color:white; /*orange color*/
-}
-
-.index-wrapper-1-scroll a{
-    background-color:RGBA(0, 175, 234, 1.0); /*cerulean color*/
-}
-
-.index-wrapper-1-scroll a:hover{
-    background-color:RGBA(254, 175, 84, 1.0); /*orange color*/
-}
-
-.index-wrapper-1-scroll a:visited{
-    color:rgba(255,255,255,1);
-}
-
 /*=====  INDEX WRAPPER 1 ENDS HERE ===== */
-
 
 /* ********************************************************* */
 
@@ -169,7 +131,6 @@ header img {
     padding: 0% 0% 5% 0%;
 }
 
-
 .index-wrapper-2-title {
     display: flex;
     justify-content: center;
@@ -177,7 +138,7 @@ header img {
     margin: 0.5% 0.5% 0.5% 0.5%;
 }
 
-.index-wrapper-2-title-1{
+.index-wrapper-2-title-1, .index-wrapper-2-title-3{
     padding: 0% 1% 0% 1%;
     font-size: 2.2em;
     color: RGBA(254, 175, 84, 1.00); /*orange color */
@@ -193,19 +154,12 @@ header img {
     border-bottom: 4px solid RGBA(0, 175, 234, 0.85); /*cerulean color*/
 }
 
-.index-wrapper-2-title-3{
-    padding: 0% 1% 0% 1%;
-    font-size: 2.2em;
-    color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
-    border-bottom: 4px solid RGBA(254, 175, 84, 1.00); /*orange color */
-}
-
 .index-wrapper-2-1 {
     margin: 0.5% 20% 0.5% 20%;
     padding: 3% 0% 2% 0%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .index-wrapper-2-1-1 {
@@ -239,7 +193,6 @@ header img {
     text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */    
 }
 
-
 /*=====  INDEX WRAPPER 2 ENDS HERE ===== */
 
 
@@ -247,30 +200,6 @@ header img {
 
 /*===== INDEX WRAPPER 3 STARTS HERE ===== */
 
-/*
-.index-wrapper-3-1 {
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: lightblue;
-	text-align: center;
-}
-
-.index-wrapper-3-1-1 {
-    margin: 0.5%;
-    padding: 5% 0% 5% 0%;
-    background: blue;
-    font-size: 500%;
-}
-
-.index-wrapper-3-1-2 {
-    margin: 0.5%;
-    padding: 1% 0% 1% 0%;
-    background: grey;
-    color: red;
-}
-*/
 
 /*=====  INDEX WRAPPER 3 ENDS HERE ===== */
 
@@ -369,13 +298,10 @@ header img {
     text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
 }
 
-
 .index-wrapper-4-2-1 img{
 	border-radius: 50%;
     border: 6px solid RGBA(254, 175, 84, 1.00);
 }
-
-
 
 /*=====  INDEX WRAPPER 4 ENDS HERE ===== */
 
@@ -447,3 +373,201 @@ header img {
     font-size: 0.6em;
 }
 /*=====  INDEX WRAPPER 5 ENDS HERE ===== */
+
+
+/* ********************************************************* */
+
+
+
+/*============== *** *** *** 
+MEDIA QUERIES 
+============== *** *** *** */
+
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 768px; LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
+
+@media (max-width: 768px) {
+    body {
+        background: white;
+    }
+    
+    header {
+    padding: 25% 10% 0% 10%;
+    display: flex;
+    justify-content: center;
+}
+
+    .index-wrapper-1-1 h1{
+    text-align: center;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5%;
+    font-size: 2.2em;
+    margin: 1% 0% 1% 0%;
+}
+
+    .index-wrapper-1-1 h2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    margin: 1% 0% 1% 0%;
+}
+
+.index-wrapper-1-1-2 div{
+    text-decoration: none;
+    text-align: center;
+    padding: 1% 0% 1% 0%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+}
+
+.index-wrapper-2{
+    padding-bottom: 10%;
+}    
+
+
+.index-wrapper-2-title-1, .index-wrapper-2-title-3{
+    padding: 0% 1% 0% 1%;
+    font-size: 1.8em;
+}
+
+.index-wrapper-2-title-2{
+    padding: 0% 1% 0% 1%;
+    font-size: 1.8em;
+}
+
+.index-wrapper-2-1 {
+  margin: 0.5% 20% 0.5% 20%;
+  padding: 3% 0% 2% 0%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.index-wrapper-2-1-1 {
+  padding: 0% 5% 0% 5%;
+  width: 500px;
+  height: 280px;
+  margin: 5px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.index-wrapper-2-1-1-1{
+    margin-top: 0%;
+}
+
+.index-wrapper-2-1-1-1 i{
+    font-size: 5.0em;
+    margin-top: 0;
+}
+
+.service-title{
+    font-size: 1.2em;
+}
+
+.service-description {
+    font-size: 0.95em; 
+}
+
+.index-wrapper-4-2 img{
+    height:200px;
+    width: 200px;
+}
+
+.index-wrapper-4-2-1-1 p{
+    font-size: 1.0em; 
+   
+}
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
+
+/* ********************************************************* */
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 480px ; LANDSCAPE PHONES & DOWN) STARTS HERE ===== */
+
+@media (max-width: 480px) {
+    body {
+        background: white;
+    }
+
+
+header {
+    padding: 8.5% 5% 0% 5%;
+    display: block;
+    text-align: center;
+}
+
+header img {
+    width: 50%;
+    height: 300px;
+    margin-right: 2.5%;
+}
+
+.index-wrapper-1-1{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.index-wrapper-1-1 h2{
+    font-size: 1.8em;
+}
+
+.index-wrapper-1-1-2 div{
+    font-size: 1.2em;
+}
+
+.index-wrapper-2-title {
+    padding: 0% 10% 0% 10%;
+}
+
+.index-wrapper-2-title-1, .index-wrapper-2-title-2, .index-wrapper-2-title-3 {
+    font-size: 1.8em;
+}
+
+.index-wrapper-4-2{
+    padding: 2% 10% 20% 10%;
+}
+
+.index-wrapper-4-2-1 div:nth-of-type(odd) {
+    display: block;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.index-wrapper-4-2-1 div:nth-of-type(even) {
+    display: block;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.index-wrapper-4-2 img{
+    height:150px;
+    width: 150px;
+}
+
+.index-wrapper-4-2-1-1 p{
+    font-size: 0.9em; 
+}
+
+.social-navigation-1-1 {
+    padding: 0.5% 25% 0.5% 25%;
+}
+.social-item {
+    padding: 0% 3% 0% 3%;
+}
+
+}
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 480px ; LANDSCAPE PHONES & DOWN) ENDS HERE ===== */

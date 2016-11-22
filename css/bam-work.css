@@ -139,8 +139,8 @@ body{
     text-align: center;
 	border-radius: 15%;
     background-color: RGBA(254, 175, 84, 1.00); /*orange color */
-
 }
+
 .shop-item-1{
 	display: flex;
     justify-content: center;
@@ -272,4 +272,143 @@ body{
 }
 /*=====  WORK WRAPPER 5 ENDS HERE ===== */
 
+/*============== *** *** *** 
+MEDIA QUERIES 
+============== *** *** *** */
 
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 768px; LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+    body {
+    background-color: white;
+}
+    .work-wrapper-3 img{
+    height: 150px;
+    width: 150px;
+}
+
+    .work-wrapper-3-row-2-title{
+    width: 150px;
+    height: 150px;
+    padding-top: 2%;
+}
+
+    .shop-item-1{
+    font-size: 1.5em;
+} 
+
+.shop-item-2{
+    font-size: 1.0em;
+} 
+
+}
+
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 768px; LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    body {
+        background:white;
+    }
+
+.work-wrapper-2-title h1{
+    margin-top: 10%;
+    font-size: 2.5em;
+}
+
+.work-wrapper-2-title p{
+    font-size: 1.4em;
+}
+    .work-wrapper-3 img{
+    height: 100px;
+    width: 100px;
+}
+
+    .work-wrapper-3-row-2-title{
+    width: 100px;
+    height: 100px;
+    padding-top: 1%;
+}
+
+    .shop-item-1{
+    font-size: 1.4em;
+} 
+
+.shop-item-2{
+    font-size: 0.6em;
+} 
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
+
+/* ********************************************************* */
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 480px ; LANDSCAPE PHONES & DOWN) STARTS HERE ===== */
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    body {
+        background: white;
+    }
+
+    .work-wrapper-3 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 15%;
+}
+
+    .work-wrapper-3-row-1{
+    text-align: center;
+    display: block;
+    padding-right: 0%;
+    margin: auto;
+    background-color: white;
+}
+
+    .work-wrapper-3-row-2 {
+    text-align: center;
+    display: block;
+    padding-right: 0%;
+    margin: auto;
+    background-color: white;
+}
+
+    .work-wrapper-3-row-3 {
+    text-align: center;
+    display: block;
+    padding-right: 0%;
+    margin: auto;
+    background-color: white;
+}
+ 
+    .work-wrapper-3-row-2-title{ 
+    height: 250px;
+    width: 100%;
+    position: fixed;
+    top:67%;
+    z-index: 100;
+    font-size: 0.6em;
+}
+
+    .shop-item-1{
+    font-size: 5em;
+    margin: auto;
+    padding-left: 5%;
+    padding-right:5%;
+} 
+
+    .shop-item-2{
+    font-size: 2.2em;
+    display: inline-block;
+    margin:auto;
+    padding: 1%
+}
+
+    .social-navigation-1-1 {
+    padding: 0.5% 25% 0.5% 25%;
+}
+
+    .social-item {
+    padding: 0% 3% 0% 3%;
+}
+
+}     

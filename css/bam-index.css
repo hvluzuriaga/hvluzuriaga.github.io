@@ -383,16 +383,27 @@ header img {
 MEDIA QUERIES 
 ============== *** *** *** */
 
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 768px; LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+    body {
+    background-color: white;
+}
+    header {
+    padding: 10% 10% 0% 10%;
+
+}
+
 
 /*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 768px; LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
-
+/* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
     body {
         background: white;
     }
     
     header {
-    padding: 25% 10% 0% 10%;
+    padding: 15% 10% 0% 10%;
     display: flex;
     justify-content: center;
 }
@@ -493,7 +504,7 @@ MEDIA QUERIES
 /* ********************************************************* */
 
 /*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 480px ; LANDSCAPE PHONES & DOWN) STARTS HERE ===== */
-
+/* Landscape phones and down */
 @media (max-width: 480px) {
     body {
         background: white;

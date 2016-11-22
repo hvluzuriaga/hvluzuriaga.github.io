@@ -499,6 +499,14 @@ MEDIA QUERIES
    
 }
 
+    .social-navigation-1-1 {
+    padding: 0.5% 25% 0.5% 25%;
+}
+    
+    .social-item {
+    padding: 0% 1% 0% 1%;
+}
+
 /*=====  INDEX WRAPPER MEDIA QUERIES (LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
 
 /* ********************************************************* */
@@ -572,11 +580,12 @@ header img {
     font-size: 0.9em; 
 }
 
-.social-navigation-1-1 {
+    .social-navigation-1-1 {
     padding: 0.5% 25% 0.5% 25%;
 }
-.social-item {
-    padding: 0% 3% 0% 3%;
+    
+    .social-item {
+    padding: 0% 1% 0% 1%;
 }
 
 }

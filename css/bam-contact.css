@@ -7,6 +7,7 @@ html{box-sizing:border-box;}*,*:before,*:after{box-sizing:inherit;}
 body{
   width: max-width;
   font-family: 'Anton', sans-serif;
+  background: pink;
 }
 
 /*=====  CONTACT WRAPPER 1 STARTS HERE ===== */
@@ -375,5 +376,131 @@ fieldset {
   z-index: 100;
   font-size: 0.6em;
 }
+
+/*============== *** *** *** 
+MEDIA QUERIES 
+============== *** *** *** */
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 768px; LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+    body {
+    background-color: white;
+}
+    .contact-wrapper-2 {
+    padding: 10% 10% 0% 10%;
+}
+
+    .contact-item {
+    margin: auto;
+}
+
+    .contact-content{
+    margin: auto;
+}
+
+    .social-navigation-1-1 {
+    padding: 0.5% 25% 0.5% 25%;
+}
+    
+    .social-item {
+    padding: 0% 1% 0% 1%;
+}
+
+}
+
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 768px; LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    body {
+        background: white;
+    }
+    .contact-wrapper-2 {
+    padding: 10% 10% 0% 10%;
+}  
+
+.contact-wrapper-3-1 {
+    padding: 0% 20% 0% 20%;
+}
+
+    
+    .contact-item {
+    margin: auto;
+    padding: 0% 6% 0% 6%;
+}
+
+    .contact-content{
+    margin: auto;
+}
+
+    .contact-wrapper-4 {
+    padding: 2% 1% 2% 1%;
+}
+
+    .contact-wrapper-4-1 {
+    padding: 0% 1% 0% 1%;
+}
+
+    .social-navigation-1-1 {
+    padding: 0.5% 25% 0.5% 25%;
+}
+    
+    .social-item {
+    padding: 0% 1% 0% 1%;
+}
+
+}
+
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (LANDSCAPE PHONE & PORTRAIT TABLET) STARTS HERE ===== */
+
+/* ********************************************************* */
+
+/*=====  INDEX WRAPPER MEDIA QUERIES (max-width: 480px ; LANDSCAPE PHONES & DOWN) STARTS HERE ===== */
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    body {
+        background: white;
+    }
+   
+
+    .contact-wrapper-2-title {
+    margin-top: 7%;
+    margin-bottom: 2%;
+} 
+
+    .contact-wrapper-2 {
+    padding: 10% 10% 0% 10%;
+    background-color: white;
+}
+
+.contact-wrapper-3-1 {
+    padding: 0% 10% 0% 10%;
+}
+
+    .contact-item {
+    margin: 0.2% 0% 0.2% 0%;
+    padding: 0% 6% 0% 6%;
+}
+
+.contact-content{
+    margin: 0.2% 0% 0.2% 0%;
+}
+
+    .social-navigation-1-1 {
+    padding: 0.5% 25% 0.5% 25%;
+}
+    
+    .social-item {
+    padding: 0% 0.5% 0% 0.5%;
+}
+
+}
+
+
+
+
+
 
 

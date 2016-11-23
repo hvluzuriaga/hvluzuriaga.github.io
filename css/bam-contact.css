@@ -332,6 +332,7 @@ fieldset {
     padding: 0.5% 20% 0.5% 20%;
 }
 .social-item {
+    color:white;
     display: flex;
     font-size: 2.25em;
     padding: 0% 6% 0% 6%;
@@ -346,7 +347,7 @@ fieldset {
 }
 
 .social-item a:hover{
-  color: red;
+
   text-shadow: 1px 1px RGBA(0, 175, 234, 0.85);  /*cerulean color*/
   background-color: RGBA(254, 175, 84, 1.00); /*orange color */
   border-radius: 5%;
@@ -354,7 +355,7 @@ fieldset {
   transition: all 0.3s;
 }
 .social-item a:visited{
-  color:rgba(255,255,255,0.85);
+  color:white;
 }
 /* SOCIAL NAV MENU STARTS HERE */
 

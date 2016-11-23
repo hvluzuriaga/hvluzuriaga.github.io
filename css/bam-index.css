@@ -132,8 +132,7 @@ header img {
 }
 
 .index-wrapper-2-title {
-    /*display: flex;*/
-    /*justify-content: center;*/
+    text-align: center;
     padding: 0% 20% 0% 20%;
     margin: 0.5% 0.5% 0.5% 0.5%;
 }
@@ -321,6 +320,7 @@ header img {
 }
 
 .social-navigation-1-1 {
+    color: white;
     display: flex;
     flex-grow: 1;
     justify-content: center;

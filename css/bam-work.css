@@ -219,6 +219,7 @@ body{
 }
 
 .social-navigation-1-1 {
+    color: white;
     display: flex;
     flex-grow: 1;
     justify-content: center;

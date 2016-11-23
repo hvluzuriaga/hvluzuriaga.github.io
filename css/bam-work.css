@@ -232,6 +232,7 @@ body{
 }
 
 .social-item a{
+    color: white;
 	text-decoration: none;
 	padding: 0.5rem 1rem;
     border-left: : 2px solid white;

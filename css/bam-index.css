@@ -334,6 +334,7 @@ header img {
 }
 
 .social-item a{
+    color:white;
 	text-decoration: none;
 	padding: 0.5rem 1rem;
     border-left: : 2px solid white;
@@ -342,7 +343,6 @@ header img {
 }
 
 .social-item a:hover{
-	color: red;
 	text-shadow: 1px 1px RGBA(0, 175, 234, 0.85);  /*cerulean color*/
     background-color: RGBA(254, 175, 84, 1.00); /*orange color */
 	border-radius: 5%;

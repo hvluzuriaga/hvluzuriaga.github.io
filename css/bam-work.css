@@ -20,9 +20,9 @@ body{
     padding-right: 20%;
     position: fixed;
     width: 100%;
-    background:  RGBA(254, 175, 84, 1.00); /*orange color */
+    background:  #F1BB6F; /*orange to harvest gold */
     z-index: 100;
-
+    top: 0%;
 }
 
 .site-navigation-1-1 {
@@ -42,13 +42,13 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-left: : 2px solid white;
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85);  /*cerulean color*/
+    text-shadow: 2px 2px #D5AF72;  /*cerulean color to putty*/
     transition: all 0.3s;
 }
 
 .site-navigation-1-1-1 a:hover{
-    background-color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
-    text-shadow: 3px 3px RGBA(254, 175, 84, 1.00); /*orange color */
+    background-color:#D5AF72; /*cerulean color to putty*/
+    text-shadow: 3px 3px #F1BB6F; /*orange color to harvest gold */
     border-radius: 5%;
     transition: all 0.3s;
     transform: scale(1.3);
@@ -76,8 +76,8 @@ body{
 	font-size: 2.5em;
 	padding-top: 5%;
 	margin-bottom: 1%;
-    color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
-    text-shadow: 3px 3px RGBA(254, 175, 84, 1.00); /*orange color */
+    color: #D5AF72; /*cerulean color to putty*/
+    text-shadow: 3px 3px #F1BB6F; /*orange color to harvest gold */
 }
 
 .work-wrapper-2-title-1{
@@ -90,8 +90,8 @@ body{
     border-bottom: 2px solid RGBA(254, 175, 84, 1.00)
 }
 .work-wrapper-2-title p{
-    color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    color: #F1BB6F; /*orange color to HARVEST GOLD */
+    text-shadow: 2px 2px #D5AF72; /*cerulean color TO PUTTY*/
 	font-size: 1.7em;
 	padding-top: 0%;
 	padding-bottom: 0%;
@@ -138,7 +138,7 @@ body{
     margin-bottom: 0.4%;
     text-align: center;
 	border-radius: 15%;
-    background-color: RGBA(254, 175, 84, 1.00); /*orange color */
+    background-color: #F1BB6F; /*orange color TO HARVEST GOLD */
 }
 
 .shop-item-1{
@@ -158,7 +158,7 @@ body{
 }
 .shop-item-1 a:hover{
 	color: white;
-	background: RGBA(0, 175, 234, 0.85);
+	background: #D5AF72;
     transform:scale(1.30);
 	transition: all 0.3s;
 }
@@ -186,8 +186,8 @@ body{
 
 .shop-item-2 a:hover{
 	color: white;
-	background-color:  RGBA(0, 175, 234, 0.85);  /*cerulean color*/
-    text-shadow: 1px 1px RGBA(254, 175, 84, 1.00); /*orange color */
+	background-color: #D5AF72;  /*cerulean color TO PUTTY*/
+    text-shadow: 1px 1px #F1BB6F; /*orange color TO HARVEST GOLD*/
     transform:scale(1.10);
 	transition: all 0.3s;
 }
@@ -211,7 +211,7 @@ body{
 
 .social-navigation-1-1 {
     margin: auto;
-    background-color: RGBA(0, 175, 234, 1.00); /*cerulean color*/
+    background-color: #D5AF72; /*cerulean color TO PUTTY*/
     width: 100%;
     position: fixed;
     top:86.5%;
@@ -242,8 +242,8 @@ body{
 }
 
 .social-item a:hover{
-	text-shadow: 1px 1px RGBA(0, 175, 234, 0.85);  /*cerulean color*/
-    background-color: RGBA(254, 175, 84, 1.00); /*orange color */
+	text-shadow: 1px 1px #D5AF72;  /*cerulean color TO PUTTY*/
+    background-color: #F1BB6F; /*orange color TO HARVEST GOLD*/
 	border-radius: 5%;
     transform:scale(1.10);
 	transition: all 0.3s;

@@ -7,6 +7,7 @@ html{box-sizing:border-box;}*,*:before,*:after{box-sizing:inherit;}
 body{
 	max-width: 100%;
     font-family: 'Anton', sans-serif;
+    background: #2A1811;
 }
 
 /* ********************************************************* */
@@ -26,8 +27,9 @@ body{
     padding-right: 20%;
     position: fixed;
     width: 100%;
-    background:  RGBA(254, 175, 84, 1.00); /*orange color */
+    background:  #F1BB6F; /*orange to harvest gold */
     z-index: 100;
+    top: 0%;
 
 }
 
@@ -48,13 +50,13 @@ body{
 	text-decoration: none;
 	padding: 0.5rem 1rem;
     border-left: : 2px solid white;
-	text-shadow: 2px 2px RGBA(0, 175, 234, 0.85);  /*cerulean color*/
+	text-shadow: 2px 2px #D5AF72;  /*cerulean color to putty*/
     transition: all 0.3s;
 }
 
 .site-navigation-1-1-1 a:hover{
-	background-color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
-    text-shadow: 3px 3px RGBA(254, 175, 84, 1.00); /*orange color */
+	background-color:#D5AF72; /*cerulean color to putty*/
+    text-shadow: 3px 3px #F1BB6F; /*orange color to harvest gold */
 	border-radius: 5%;
     transition: all 0.3s;
 	transform: scale(1.3);
@@ -89,8 +91,8 @@ header img {
     justify-content: center;
     align-items: center;
     margin-left: 2.5%;
-    color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    color: #F1BB6F; /*orange color to HARVEST GOLD */
+    text-shadow: 2px 2px #D5AF72; /*cerulean color TO PUTTY*/
     font-size: 2.2em;
     margin: 1% 0% 1% 0%;
     /*background-color: purple;*/
@@ -103,8 +105,8 @@ header img {
     justify-content: center;
     align-items: center;
     margin-left: 2.5%;
-    color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    color: #F1BB6F; /*orange color to HARVEST GOLD */
+    text-shadow: 2px 2px #D5AF72; /*cerulean color TO PUTTY*/
     font-size: 1.8em;
     margin: 1% 0% 1% 0%;
     /*background-color: purple;*/
@@ -116,8 +118,8 @@ header img {
     padding: 1% 0% 1% 0%;
     display: flex;
     flex-direction: column;
-    color:RGBA(0, 175, 234, 1.00); /*cerulean color*/
-    text-shadow: 2px 2px RGBA(254, 175, 84, 0.85); /*orange color*/
+    color:#D5AF72; /*cerulean color TO PUTTY*/
+    text-shadow: 2px 2px #F1BB6F; /*orange color TO HARVEST GOLD*/
     font-size: 1.2em;
 }
 
@@ -140,17 +142,17 @@ header img {
 .index-wrapper-2-title-1, .index-wrapper-2-title-3{
     padding: 0% 1% 0% 1%;
     font-size: 2.2em;
-    color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
-	border-bottom: 4px solid RGBA(254, 175, 84, 1.00); /*orange color */
+    color: #F1BB6F; /*orange color to HARVEST GOLD */
+    text-shadow: 2px 2px #D5AF72; /*cerulean color TO PUTTY*/
+	border-bottom: 4px solid #F1BB6F; /*orange color to HARVEST GOLD */
 }
 
 .index-wrapper-2-title-2{
 	padding: 0% 1% 0% 1%;
     font-size: 2.2em;
-    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
-    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */
-    border-bottom: 4px solid RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    color: #D5AF72; /*cerulean color TO PUTTY*/
+    text-shadow: 2px 2px #F1BB6F; /*orange color to HARVEST GOLD */
+    border-bottom: 4px solid #D5AF72; /*cerulean color TO PUTTY*/
 }
 
 .index-wrapper-2-1 {
@@ -175,21 +177,21 @@ header img {
 
 .index-wrapper-2-1-1-1 i{
     font-size: 7em;
-    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
-    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */    
+    color: #D5AF72; /*cerulean color TO PUTTY*/
+    text-shadow: 2px 2px #F1BB6F; /*orange color to HARVEST GOLD */
 
 }
 
 .service-title{
     font-size: 2.0em;
-    color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    color: #F1BB6F; /*orange color to HARVEST GOLD */
+    text-shadow: 2px 2px #D5AF72; /*cerulean color TO PUTTY*/
 }
 
 .service-description {
     font-size: 0.4em; 
-    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
-    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */    
+    color: #D5AF72; /*cerulean color TO PUTTY*/
+    text-shadow: 2px 2px #F1BB6F; /*orange color to HARVEST GOLD */
 }
 
 /*=====  INDEX WRAPPER 2 ENDS HERE ===== */
@@ -225,17 +227,17 @@ header img {
 .index-wrapper-4-title-1-1{
     padding: 0% 1% 0% 1%;
     font-size: 2.2em;
-    color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
-    border-bottom: 4px solid RGBA(254, 175, 84, 1.00); /*orange color */
+    color: #F1BB6F; /*orange color to HARVEST GOLD */
+    text-shadow: 2px 2px #D5AF72; /*cerulean color TO PUTTY*/
+    border-bottom: 4px solid #F1BB6F; /*orange color to HARVEST GOLD */
 }
 
 .index-wrapper-4-title-1-2{
     padding: 0% 1% 0% 1%;
     font-size: 2.2em;
-    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
-    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */
-    border-bottom: 4px solid RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    color: #D5AF72; /*cerulean color TO PUTTY*/
+    text-shadow: 2px 2px #F1BB6F; /*orange color to HARVEST GOLD */
+    border-bottom: 4px solid #D5AF72; /*cerulean color TO PUTTY*/
 }
 
 .index-wrapper-4-1 {
@@ -245,8 +247,8 @@ header img {
 
 .index-wrapper-4-1 p{
     font-size: 1.2em; 
-    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
-    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */    
+    color: #D5AF72; /*cerulean color TO PUTTY*/
+    text-shadow: 2px 2px #F1BB6F; /*orange color to HARVEST GOLD */
 }
 
 .index-wrapper-4-2{
@@ -273,8 +275,8 @@ header img {
     font-size: 1.2em; 
     margin-top: 0%;
     margin-bottom:0%;
-    color: RGBA(0, 175, 234, 0.85); /*cerulean color*/
-    text-shadow: 2px 2px RGBA(254, 175, 84, 1.00); /*orange color */    
+    color: #D5AF72; /*cerulean color TO PUTTY*/
+    text-shadow: 2px 2px #F1BB6F; /*orange color to HARVEST GOLD */
 }
 
 .quote-left{
@@ -283,8 +285,8 @@ header img {
 }
 
 .fa-quote-left{
-    color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    color: #F1BB6F; /*orange color to HARVEST GOLD */
+    text-shadow: 2px 2px #D5AF72; /*cerulean color TO PUTTY*/
 }
 
 .quote-right{
@@ -293,8 +295,8 @@ header img {
 }
 
 .fa-quote-right{
-    color: RGBA(254, 175, 84, 1.00); /*orange color */
-    text-shadow: 2px 2px RGBA(0, 175, 234, 0.85); /*cerulean color*/
+    color: #F1BB6F; /*orange color to HARVEST GOLD */
+    text-shadow: 2px 2px #D5AF72; /*cerulean color TO PUTTY*/
 }
 
 .index-wrapper-4-2-1 img{
@@ -312,7 +314,7 @@ header img {
 
 .social-navigation-1-1 {
     margin: auto;
-    background-color: RGBA(0, 175, 234, 1.00); /*cerulean color*/
+    background-color: #D5AF72; /*cerulean color TO PUTTY*/
     width: 100%;
     position: fixed;
     top:86.5%;
@@ -327,32 +329,34 @@ header img {
     padding: 0.5% 20% 0.5% 20%;
 }
 .social-item {
-    color:white;
+    color: white;
     display: flex;
     font-size: 2.25em;
     padding: 0% 6% 0% 6%;
 }
 
 .social-item a{
-    color:white;
-	text-decoration: none;
-	padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
     border-left: : 2px solid white;
-	transition: all 0.3s;
+    transition: all 0.3s;
 
 }
 
 .social-item a:hover{
-	text-shadow: 1px 1px RGBA(0, 175, 234, 0.85);  /*cerulean color*/
-    background-color: RGBA(254, 175, 84, 1.00); /*orange color */
-	border-radius: 5%;
+    text-shadow: 1px 1px #D5AF72;  /*cerulean color TO PUTTY*/
+    background-color: #F1BB6F; /*orange color TO HARVEST GOLD*/
+    border-radius: 5%;
     transform:scale(1.10);
-	transition: all 0.3s;
+    transition: all 0.3s;
 }
 .social-item a:visited{
-	color:rgba(255,255,255,0.85);
+    color: white;
 }
-/* SOCIAL NAV MENU STARTS HERE */
+
+
+/* SOCIAL NAV MENU ENDS HERE */
 
 /*=====  INDEX WRAPPER 5 ENDS HERE ===== */
 
